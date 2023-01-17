@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: url(rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+    
+    
+    .page > .page1{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.6);
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .page > .page1 > h1{
+        font-size: 85px;
+        transform: 0.2s;
+    }
+    .page > .page1 > h1:hover{
+        color: black;
+    }
+
+
+
+
+.page2{
+        height: 100%;
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    .page2 > .nav{
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 150px;
+        font-size: 8px;
+        background-color: whitesmoke;
+    }
+
+    .page2 > .nav > h2{
+        border: 2px solid;
+        padding: 20px;
+        font-size: large;
+        transition: 0.2s;
+    }
+
+    .page2 > .nav > h2:hover{
+       transform: scale(1.2);
+       cursor: pointer;
+    }
+
+    .page2 > .nav > h1{
+        transition: 0.2s;
+    }
+    .page2 > .nav > h1:hover{
+        transform: scale(1.4);
+        color:cadetblue;
+        cursor: pointer;
+     }
+ 
+
+    .page2 > .navcenter{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .page2 > .navcenter > p{
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .page2 > .navcenter > .navcenter1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        transition: 0.2s;
+    }
+
+    .page2 > .navcenter > .navcenter1 > .idea:hover{
+       transform: scale(1.2);
+       color:cadetblue;
+       font-weight: 600;
+    }
+    .page2 > .navcenter > .navcenter1 > .design:hover{
+        transform: scale(1.2);
+        color:cadetblue;
+        font-weight: 600;
+     }
+
+     .page2 > .navcenter > .navcenter1 > .development:hover{
+        transform: scale(1.2);
+        color:cadetblue;
+        font-weight: 600;
+     }
+
+     .page2 > .navcenter > .navcenter1 > .success:hover{
+        transform: scale(1.2);
+        color:cadetblue;
+        font-weight: 600;
+     }
+    
+
+.part3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+    .part3 > .leftpart{
+        width: 40%;
+        height: 100%;
+        color: whitesmoke;
+        text-align:justify;
+        padding-top: 10vmax;
+        font-size: large;
+        padding-left: 5vmax;
+    }
+    .part3 > .leftpart > h1{
+        font-weight: 500;
+    }
+    .part3 > .leftpart > h5{
+        color: rgb(146, 143, 143);
+    }
+    .part3 > .leftpart > .Contact{
+        color: black;
+        font-weight: 700;
+        padding: 12px 18px;
+        border-radius: 20px;
+    }
+
+    .part3 > .rightpart{
+        width: 60%;
+        height: 100%;
+        color: whitesmoke;
+        text-align:justify;
+        padding-top: 0.5vmax;
+        font-size: large;
+        padding-left: 5vmax;
+        transition: 0.2s;
+    }
+
+    .part3 > .leftpart > .Contact:hover{
+        color: black;
+        background-color: cadetblue;
+        transform: scale(1.1);
+    }
+
+
